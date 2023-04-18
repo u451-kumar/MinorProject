@@ -8,10 +8,7 @@ hr{
     border-width: 2px;
     margin: 0 5%;
 }
-li{
-    list-style-type: none;
-    margin-left: 100px;
-}
+
 #navigation{
     padding: 1% 6%;
 }
@@ -44,15 +41,18 @@ h1{
 
 }
 
-.ul{
+/* ul{
     list-style-type: none;
-  margin: 0;
-  padding: 0;
-    text-align: center;
     line-height: 1.5;
-    padding: 15px;
-    margin-left:100px;
+    margin-left: 70px;
+} */
+li{
+    list-style-type: none;
+    margin-left: 100px;
+    display:inline;
 }
+
+
 
 #footer{
     padding: 3% 12%;
