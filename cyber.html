@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <title>
+            Cyber Security
+        </title>
+        <!--font awesome-->
+        <script src="https://kit.fontawesome.com/12822bc29b.js" crossorigin="anonymous"></script>
+
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                
+        <!-- css -->
+<link rel="stylesheet" href="journal.css">
+
+</head>
+
+    <bo>
+    
+        <!-- NAVIGATION SECTION -->
+        <section id = "navigation">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><b>ADTU</b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav navItems">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Resources<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Browse</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link " href="#">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <div class="dropdown">
+                            <i class="fa-solid fa-user profile-icon dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                            
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Tanisha Patel</a>
+                              <a class="dropdown-item" href="#">Submit a manuscript</a>
+                              <a class="dropdown-item" href="#">Status of manuscripts</a>
+                              <a class="dropdown-item" href="#">Already published papers</a>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>            
+
+        </section>
+
+        <div class="div1" >
+            <h class="text">Browse Journals</h>
+        </div>
+        <br>
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Search Your Journal</button>
+            <div id="myDropdown" class="dropdown-content">
+              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+              <a href="cc.html">Cloud Computing</a>
+              <a href="cyber.html">Cybersecurity</a>
+              <a href="bigdata.html">Journal of Big Data</a>
+              <a href="ans.html">Applied Network Science</a>
+              <a href="#custom">Brain Informatics</a>
+              <a href="#support">Energy informatics</a>
+            </div>
+          </div>
+            <div class = container>
+              <div class = card>
+                <div class = image>
+                  <img href = "#" src = "images/cse.jpg">
+                </div>
+                <div class = content>
+                  <h3 style="font-size: 20px">Review and insight on the behavioral aspects of cybersecurity
+                </h3>
+                  <p>Guest Editors: Rachid Ait Maalem Lahcen, Bruce Caulkins, Ram Mohapatra and Manish Kumar</p>
+                  <button style="background-color:aqua; padding:5px"><a target="_blank" href="pdfs/cyber journal 2.pdf">View Journal</button>
+                </div>
+              </div> 
+               
+            </div>
+
+        <!-- FOOTER -->
+        <section id = "footer">
+                
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <ul>
+                            <li><strong>About</strong></li>
+                            <br>
+                            <li>ADTU Journals</li>
+                            <li>Terms and Conditions</li>
+                            <li>Manuscript</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <ul>
+                            <li><strong>Information For</strong></li>
+                            <br>
+                            <li>Authors</li>
+                            <li>Editors</li>
+                            <li>Readers</li>
+                            <li>Peer Reviewers</li>
+                            <li>Librarions</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h4>Social</h4>
+                        <br>
+                        <i class="fa-brands fa-instagram social-links"></i>
+                        <i class="fa-brands fa-facebook social-links"></i>
+                        <i class="fa-brands fa-twitter social-links"></i>
+                        <i class="fa-brands fa-linkedin social-links"></i>
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="copyright">
+            © 2023 Copyright:
+            <a class="text-dark" href="#">ADTUjournals.com</a>
+        </div>
+
+    </section>
+        <script>
+            /* When the user clicks on the button,
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            function filterFunction() {
+              var input, filter, ul, li, a, i;
+              input = document.getElementById("myInput");
+              filter = input.value.toUpperCase();
+              div = document.getElementById("myDropdown");
+              a = div.getElementsByTagName("a");
+              for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  a[i].style.display = "";
+                } else {
+                  a[i].style.display = "none";
+                }
+              }
+            }
+            </script>
+    </body>
+</html>
