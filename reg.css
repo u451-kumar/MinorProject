@@ -23,7 +23,7 @@ form{
 }
 form *{
     font-family: 'Poppins',sans-serif;
-    color: #ffffff;
+    color: black;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
@@ -58,7 +58,7 @@ input1{
 button{
     margin-top: 50px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: black;
     color: #080710;
     padding: 15px 0;
     font-size: 18px;
@@ -87,7 +87,7 @@ button{
 }
 .dropbtn {
     background-color: #3498DB;
-    color: white;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
