@@ -1,140 +1,216 @@
-<html>
-    <head>
-        <title> Author Profile</title>
+<!DOCTYPE html>
+<html lang="en">
 
-        <!--font awesome-->
-        <script src="https://kit.fontawesome.com/12822bc29b.js" crossorigin="anonymous"></script>
-        <!-- bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-         
-        <!-- css -->
-        <link rel="stylesheet" href="author.css">
-            
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Author's Profile</title>
+	<meta name="description" content="ADTU Journals: Exploring the world of journals is a series of journals of Health Sciences, Technology, Fashion, Engineering and Technology " />
+	<meta name="keywords" content="ADTU Journals,journals" />
+	<meta name="author" content="Luka Cvetinovic for Codrops" />
+	<link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+	<!--font awesome-->
+	<script src="https://kit.fontawesome.com/12822bc29b.js" crossorigin="anonymous"></script>
 
-    <body>
+<link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
+<link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="fav/manifest.json">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
 
-        <!-- NAVIGATION SECTION -->
-        <section id = "navigation">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="Journal-Website-main/index.html"><b>ADTU</b></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav navItems">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Resources<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Browse</a>
-                    </li>
-                    <li class="nav-item ">
-                      <a class="nav-link " href="#">About</a>
-                    </li>
-                    <li class="nav-item ">
-                        <div class="dropdown">
-                            <i class="fa-solid fa-user profile-icon dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                            
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Tanisha Patel</a>
-                              <a class="dropdown-item" href="#">Submit a manuscript</a>
-                              <a class="dropdown-item" href="#">Status of manuscripts</a>
-                              <a class="dropdown-item" href="#">Already published papers</a>
-                            </div>
-                        </div>
-                    </li>
-                  </ul>
-                </div>
-              </nav>            
+<meta name="theme-color" content="#ffffff">
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+	<!-- Elegant Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
+	<!-- Main style -->
+	<link rel="stylesheet" type="text/css" href="css/cardio.css">
+	<link rel="stylesheet" type="text/css" href="author.css">
+</head>
+<body class="act" style="background-image: url(images/bg.jpg);">
+<br><br><br><br><hr>
+	<!-- Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/jquery.scrollbox.min.js"></script>
+<nav style="padding-top:1%; padding-bottom:0.2%; margin:0px" class="navbar">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" >
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                        
+            <a class="navbar-brand" href="#"><div class="circle"><center><img class="adjust" src="img/tuxpi.com.1683272412.jpg" style='z-index: 100;' data-active-url="img/tuxpi.com.1683272412.jpg" width='115px' alt=""></center></div></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right main-nav">
+                <li style="margin:0px 1px;"><a  href="#intro">Home</a></li>
+                <li style="margin:0px 1px;"><a href="#services">About</a></li>
+                <li style="margin:0px 1px;"><a href="#team">Editorial Board</a></i>
 
-        </section>
-<hr><br>
-<!--  -->
-    <h1>New Submissions</h1>  <br>
-    <div class="cards">
-      <diV class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
+                <li style="margin:0px 1px;"><a target="_blank" href="pdfs/Roles.pdf">Role of Editor</a></li>
+                <li style="margin:0px 1px;"><a href="#contact">Contact Us</a></li>
+                <li><a href="join/us.html" class="btn btn-blue">Sign Up</a></li> <!--to pdf-->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+
+<div class="new-sub">
+
+    <h3> Submitted Manuscripts</h3>
+    <br>
+
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
           <div class="card-body">
-            <h5 class="card-title"><a href=submit.html>Submit a Manuscript (0)</a></h5>
-          </div>                    
-        </diV>
-
-      <div class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Submissions sent back to Author (0)</h5>
-          </div>                    
+            <h5 class="card-title">Title of the Journal</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#">Read More...</a><br>
+          </div>
+        </div>
       </div>
-
-      <div class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
+      <div class="col-sm-3">
+        <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Incomplete Submissions (0)</h5>
-          </div>                    
+            <h5 class="card-title">Title of the Journal</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#">Read More...</a><br>
+          </div>
+        </div>
       </div>
-
-      <div class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
+      <div class="col-sm-3">
+        <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Submissions waiting for Author's Approval (0)</h5>
-          </div>                    
+            <h5 class="card-title">Title of the Journal</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#">Read More...</a><br>
+          </div>
+        </div>
       </div>
+    </div>
 
+</div>
+
+
+<div class="revisions">
+
+  <h3> Papers Pending for Revision</h3>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">View Original paper</a><br>
+          <a href="#">View Corrected paper</a><br><br>
+          <div style="text-align: center;">
+          <button class="btn-sm">Submit Again</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">View Original paper</a><br>
+          <a href="#">View Corrected paper</a><br><br>
+          <div style="text-align: center;">
+          <button class="btn-sm">Submit Again</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">View Original paper</a><br>
+          <a href="#">View Corrected paper</a><br><br>
+          <div style="text-align: center;">
+          <button class="btn-sm">Submit Again</button></div>
+        </div>
+      </div>
+    </div>
   </div>
-    <h1>Revisions</h1>  <br>
-    <div class="cards">
-      <diV class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Submissions Needing Revision  (0)</h5>
-          </div>                    
-        </diV>
 
+</div>
+
+
+
+<div class="publish">
+
+  <h3> Published Papers</h3>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-3">
       <div class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Revisions Sent Back to Author  (0)</h5>
-          </div>                    
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Read More...</a><br>
+        </div>
       </div>
-
+    </div>
+    <div class="col-sm-3">
       <div class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Incomplete Submissions Being Revised  (0)</h5>
-          </div>                    
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Read More...</a><br>
+        </div>
       </div>
-
+    </div>
+    <div class="col-sm-3">
       <div class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Declined Revisions  (0)</h5>
-          </div>                    
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Read More...</a><br>
+        </div>
       </div>
-
+    </div>
   </div>
 
-  <h1>Completed</h1>  <br>
-    <div class="cards">
-      <diV class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Submissions with a Decision  (0)</h5>
-          </div>                    
-        </diV>
+</div>
 
-      <div class="card">
-          <img class="card-img" src="images/OIP (1).jfif" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Submissions with Production Completed  (0)</h5>
-          </div>                    
-      </div> <br>
-  </div>
+
   
 <!-- FOOTER -->
 <section id = "footer">
@@ -180,5 +256,19 @@
 
 </section>
 
-  </body>
+
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/typewriter.js"></script>
+	<script src="js/jquery.onepagenav.js"></script>
+	<script src="js/crawler.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
 </html>
