@@ -45,16 +45,20 @@
 //     }
 //   }
 // }
+function myFunction(c) 
+{
+    document.getElementById("subject").style.color = "black";
+}
 
 var subjectObject = {
-    "Student": {
-      "Undergraduate Student": ["Links", "Images", "Tables", "Lists"],
-      "Postgraduate Student": ["Borders", "Margins", "Backgrounds", "Float"],
-      "Others": ["Variables", "Operators", "Functions", "Conditions"]    
+    "Scholars": {
+      "Undergraduate Student": ["Science", "Technology", "Fashion", "Computers"],
+      "Postgraduate Student": ["Biotechnology", "Chemistry", "Graphics", "Physics"],
+      "Others": ["Science", "Health", "Stock", "Business"]    
     },
     "Librarian": {
-      "Medical Librarian": ["Variables", "Strings", "Arrays"],
-      "Government Librarian": ["SELECT", "UPDATE", "DELETE"]
+      "Medical Librarian": ["Biotechnology", "Cardiology", "Dermatology"],
+      "Government Librarian": ["Politics", "Finance", "Accounts"]
     }
   }
   window.onload = function() {

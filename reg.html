@@ -23,7 +23,14 @@
       <fieldset>
         <legend>Personal Information</legend>
         <label class="label1" for="role">Role:</label>
-        <input class="input1" type="text" id="role" name="role"><br><br>
+        <select style="color: white; background-color: rgba(255,255,255,0.07);" class="form-select form-select-sm"  aria-label="Default select example">
+          <option style="color: black;" selected>Choose Role</option>
+          <option style="color: black;" value="1">Author</option>
+          <option style="color: black;" value="2">Reviewer</option>
+          <option style="color: black;" value="3">Reader</option>
+      </select><br><br>
+<!-- 
+        <input class="input1" type="text" id="role" name="role"><br><br> -->
         <label class="label1" for="fname">First name:</label>
         <input class="input1" type="text" id="fname" name="fname"><br><br>
         <label class="label1" for="lname">Last name:</label>
@@ -62,7 +69,7 @@
 
       </fieldset><br><br>
 
-      <fieldset>
+      <fieldset >
         <legend>Expertise</legend>
         <!-- Occupation: <br><select name="subject" id="subject">
                 <option value="" selected="selected">Select subject</option>
@@ -72,23 +79,32 @@
                 <option value="" selected="selected">Please select Occupation first</option>
               </select>
               <br><br> -->
-        Occupation: <br><select name="subject" id="subject">
-          <option value="" selected="selected">Select occupation</option>
+
+        Occupation: <br><select style="color: black;" name="subject" id="subject">
+          <option  style="color: black;" value="" selected="selected">Select occupation</option>
         </select>
         <br><br>
-        Business: <br><select name="topic" id="topic">
-          <option value="" selected="selected">Please select occupation first</option>
+        Business: <br><select style="color: black;" name="topic" id="topic">
+          <option style="color: black;" value="" selected="selected">Please select occupation first</option>
         </select>
         <br><br>
-        Interest: <br><select name="chapter" id="chapter">
-          <option value="" selected="selected">Please select business first</option>
+        Interest: <br><select style="color: black;" name="chapter" id="chapter">
+          <option style="color: black;" value="" selected="selected">Please select business first</option>
         </select>
         <br><br>
       </fieldset>
+ <!-- SUBMIT SECTION -->
+ <section id = "submit">
+  <button style="color: black; border: 1px solid black;" class="btn btn-primary btn-lg btn-dark">Register</button>
+</section>
+
       <p>Already have an account? </p>
       <a href="login.html"><button type="button">Login</button></a>
 
     </form>
+
+
+    
   </body>
 
   </html>
