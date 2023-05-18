@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: lightcyan;
 }
 hr{
     margin: 0;
@@ -8,7 +8,9 @@ hr{
     border-width: 2px;
     margin: 0 5%;
 }
-
+li{
+    list-style-type: none;
+}
 #navigation{
     padding: 1% 6%;
 }
@@ -33,7 +35,7 @@ hr{
 }
 
 h1{
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 #discplines{
@@ -41,16 +43,33 @@ h1{
 
 }
 
-/* ul{
-    list-style-type: none;
-    line-height: 1.5;
-    margin-left: 70px;
-} */
-li{
-    list-style-type: none;
-    margin-left: 100px;
-    display:inline;
+a{
+    text-decoration: none;
+    color: rgb(197, 153, 153);
 }
+a:hover{
+    color: red;
+}
+
+.under-review{
+    padding: 3% 15%;
+
+}
+
+.completed{
+    padding: 3% 15%;
+
+}
+.card{
+    padding: 1% 5%;
+}
+.custom-file{
+    padding: 3% 1%;
+}
+/* 
+.publish{
+    padding: 3% 15%;
+} */
 
 
 
@@ -59,3 +78,4 @@ li{
     color: white;
     background-color: black;
 }
+

@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: lightcyan;
 }
 hr{
     margin: 0;
@@ -10,8 +10,6 @@ hr{
 }
 li{
     list-style-type: none;
-    margin-left: 100px;
-    display:inline;
 }
 #navigation{
     padding: 1% 6%;
@@ -37,7 +35,7 @@ li{
 }
 
 h1{
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 #discplines{
@@ -45,15 +43,44 @@ h1{
 
 }
 
-/* .ul{
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-    text-align: center;
-    line-height: 1.5;
-    padding: 15px;
-    margin-left:100px;
-} */
+a{
+    text-decoration: none;
+    color: rgb(197, 153, 153);
+}
+a:hover{
+    color: red;
+}
+
+.under-review{
+    padding: 3% 15%;
+
+}
+
+.completed{
+    padding: 3% 15%;
+
+}
+.card{
+    padding: 1% 5%;
+}
+
+.publish{
+    padding: 3% 15%;
+}
+
+.revised{
+    padding: 3% 15%;
+}
+
+.rejected{
+    padding: 3% 15%;
+}
+
+.new-sub{
+    padding: 3% 15%;
+}
+
+
 
 #footer{
     padding: 3% 12%;
@@ -61,12 +88,3 @@ h1{
     background-color: black;
 }
 
-.form-section{
-    margin: 30px 0;
-    width: 40%;
-    display: inline;
-}
-
-#but{
-    margin-left:100px;
-}

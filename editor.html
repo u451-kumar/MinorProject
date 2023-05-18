@@ -1,453 +1,347 @@
-<html>
-    <head>
-        <title> Editors Profile </title>
+<!DOCTYPE html>
+<html lang="en">
 
-        <!--font awesome-->
-        <script src="https://kit.fontawesome.com/12822bc29b.js" crossorigin="anonymous"></script>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Editor's Profile</title>
+	<meta name="description" content="ADTU Journals: Exploring the world of journals is a series of journals of Health Sciences, Technology, Fashion, Engineering and Technology " />
+	<meta name="keywords" content="ADTU Journals,journals" />
+	<meta name="author" content="Luka Cvetinovic for Codrops" />
+	<link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+	<!--font awesome-->
+	<script src="https://kit.fontawesome.com/12822bc29b.js" crossorigin="anonymous"></script>
 
-        <!-- bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        
-        <!-- css -->
-        <link rel="stylesheet" href="editor.css">
-            
+<link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
+<link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="fav/manifest.json">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
 
-    <body>
+<meta name="theme-color" content="#ffffff">
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+	<!-- Elegant Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
+	<!-- Main style -->
+	<link rel="stylesheet" type="text/css" href="css/cardio.css">
+	<link rel="stylesheet" type="text/css" href="editor.css">
+</head>
+<body class="act" style="background-image: url(ptn4.jpg);">
+<br><br><br><br><hr>
+	<!-- Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/jquery.scrollbox.min.js"></script>
+<nav style="padding-top:1%; padding-bottom:0.2%; margin:0px" class="navbar">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" >
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                        
+            <a class="navbar-brand" href="#"><div class="circle"><center><img class="adjust" src="img/tuxpi.com.1683272412.jpg" style='z-index: 100;' data-active-url="img/tuxpi.com.1683272412.jpg" width='115px' alt=""></center></div></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right main-nav">
+                <li style="margin:0px 1px;"><a  href="#intro">Home</a></li>
+                <li style="margin:0px 1px;"><a href="#services">About</a></li>
+                <li style="margin:0px 1px;"><a href="#team">Editorial Board</a></i>
 
-        <!-- NAVIGATION SECTION -->
-        <section id = "navigation">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html"><b>ADTU</b></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav navItems">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Resources<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Browse</a>
-                    </li>
-                    <li class="nav-item ">
-                      <a class="nav-link " href="#footer">About</a>
-                    </li>
-                    <li class="nav-item ">
-                        <div class="dropdown">
-                            <i class="fa-solid fa-user profile-icon dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                            
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item " href="#">Rajesh Ranjan</a>
-                              <a class="dropdown-item " href="#">New Submissions</a>
-                              <a class="dropdown-item" href="#">Under Review</a>
-                              <a class="dropdown-item" href="#">Review Completed</a>
-                              <a class="dropdown-item" href="#">Rejected Papers</a>
-                              <a class="dropdown-item" href="#">Published Papers</a>
-                              <a class="dropdown-item" href="#">Log Out</a>
-                            </div>
-                        </div>
-                    </li>
-                  </ul>
-                </div>
-              </nav>            
+                <li style="margin:0px 1px;"><a target="_blank" href="pdfs/Roles.pdf">Role of Editor</a></li>
+                <li style="margin:0px 1px;"><a href="contact.html">Contact Us</a></li>
+                <li><a href="join/us.html" class="btn btn-blue">Sign Up</a></li> <!--to pdf-->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
 
-        </section>
-<hr><br>
-<!--  -->
 
-    <h1>New Submissions</h1>  
-    <div class="newSubmission">
-        <ul>
-            <li>
-                <a href="#" data-target="#mymodal2" data-toggle="modal">Paper 1</a> &nbsp &nbsp 
-                <div class="modal" id="mymodal2">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6>Paper details</h6>
-                                <button type="btn" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <label>Author(s)</label><br>
-                                <textarea rows="2" cols="60"></textarea><br><br>
 
-                                <label>Paper type</label><br>
-                                <textarea rows="1" cols="60"></textarea><br><br>
+<div class="new-sub">
 
-                                <label>Area of interest/specialization</label>
-                                <textarea rows="2" cols="60"></textarea><br><br>
+    <h3>New Submissions</h3>
+    <br>
 
-                                <label>Other Keywords</label>
-                                <textarea rows="2" cols="60"></textarea><br><br>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Title of the Journal</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#">Read More...</a><br><br>
+            <strong>Choose Reviewer</strong><br>
+            <select class="form-select form-select-sm"  >
+                <option selected>Choose Reviewer</option>
+                <option value="1">Reviewer 1</option>
+                <option value="2">Reviewer 2</option>
+                <option value="3">Reviewer 3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Title of the Journal</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#">Read More...</a><br><br>
+            <strong>Choose Reviewer</strong><br>
+            <select class="form-select form-select-sm"  >
+                <option selected>Choose Reviewer</option>
+                <option value="1">Reviewer 1</option>
+                <option value="2">Reviewer 2</option>
+                <option value="3">Reviewer 3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Title of the Journal</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#">Read More...</a><br><br>
+            <strong>Choose Reviewer</strong><br>
+            <select class="form-select form-select-sm"  >
+                <option selected>Choose Reviewer</option>
+                <option value="1">Reviewer 1</option>
+                <option value="2">Reviewer 2</option>
+                <option value="3">Reviewer 3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                                <label>File </label>
-                                <a href="#">Paper 1</a>
-            
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
+</div>
+
+<div class="revised">
+
+    <h3>Revised Papers</h3>
+    <br>
+
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Title of the Journal</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#">Read More...</a><br><br>
+            <a href="#">View Revised Paper</a><br><br>
+            <div class="status">
+                <strong>Choose Status</strong><br>
+                <button style="margin-right: 10px;" class="btn-sm btn-gray-fill">Accept</button>
                 
-                <button class="btn btn-sm btn-dark" data-target="#mymodal" data-toggle="modal">Add Reviewer</button>
-                <div class="modal" id="mymodal">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6>Reviewer details</h6>
-                                <button type="btn" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <form>
-                                    <div class="form-group">
-                                        <label>Choose Reviewer</label>
-                                        <select class="form-select form-select-sm"  aria-label="Default select example">
-                                            <option selected>Open this select menu</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-sm btn-dark" type="submit" data-dismiss="modal">Submit</button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div> <br>  <br>
-            </li>
-            <li>
-                <a href="#" data-target="#mymodal2" data-toggle="modal">Paper 2</a> &nbsp &nbsp 
-                <div class="modal" id="mymodal2">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6>Paper details</h6>
-                                <button type="btn" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <label>Author(s)</label><br>
-                                <textarea rows="2" cols="60"></textarea><br><br>
-
-                                <label>Paper type</label><br>
-                                <textarea rows="1" cols="60"></textarea><br><br>
-
-                                <label>Area of interest/specialization</label>
-                                <textarea rows="2" cols="60"></textarea><br><br>
-
-                                <label>Other Keywords</label>
-                                <textarea rows="2" cols="60"></textarea><br><br>
-
-                                <label>File </label>
-                                <a href="#">Paper 1</a>
-            
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
+                <button class="btn-sm btn-gray-fill">Reject</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Title of the Journal</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#">Read More...</a><br><br>
+            <a href="#">View Revised Paper</a><br><br>
+            <div class="status">
+                <strong>Choose Status</strong><br>
+                <button style="margin-right: 10px;" class="btn-sm btn-gray-fill">Accept</button>
                 
-
-                <button class="btn btn-sm btn-dark" data-target="#mymodal" data-toggle="modal">Add Reviewer</button>
-                <div class="modal" id="mymodal">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6>Reviewer details</h6>
-                                <button type="btn" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <form>
-                                    <div class="form-group">
-                                        <label>Choose Reviewer</label>
-                                        <select class="form-select form-select-sm"  aria-label="Default select example">
-                                            <option selected>Open this select menu</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-sm btn-dark" type="submit" data-dismiss="modal">Submit</button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div> <br> <br>
-            </li>
-            <li>
-                <a href="#" data-target="#mymodal2" data-toggle="modal">Paper 3</a> &nbsp &nbsp 
-                <div class="modal" id="mymodal2">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6>Paper details</h6>
-                                <button type="btn" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <label>Author(s)</label><br>
-                                <textarea rows="2" cols="60"></textarea><br><br>
-
-                                <label>Paper type</label><br>
-                                <textarea rows="1" cols="60"></textarea><br><br>
-
-                                <label>Area of interest/specialization</label>
-                                <textarea rows="2" cols="60"></textarea><br><br>
-
-                                <label>Other Keywords</label>
-                                <textarea rows="2" cols="60"></textarea><br><br>
-
-                                <label>File </label>
-                                <a href="#">Paper 1</a>
-            
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
+                <button class="btn-sm btn-gray-fill">Reject</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Title of the Journal</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#">Read More...</a><br><br>
+            <a href="#">View Revised Paper</a><br><br>
+            <div class="status">
+                <strong>Choose Status</strong><br>
+                <button style="margin-right: 10px;" class="btn-sm btn-gray-fill">Accept</button>
                 
+                <button class="btn-sm btn-gray-fill">Reject</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                <button class="btn btn-sm btn-dark" data-target="#mymodal" data-toggle="modal">Add Reviewer</button>
-                <div class="modal" id="mymodal">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6 class="bg-primary">Reviewer details</h6>
-                                <button type="btn" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <form>
-                                    <div class="form-group ">
-                                        <label>Choose Reviewer</label>
-                                        <select class="form-select form-select-sm"  aria-label="Default select example">
-                                            <option selected>Open this select menu</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-sm btn-dark" type="submit" data-dismiss="modal">Submit</button>
-                            </div>
+</div>
 
-                        </div>
-                    </div>
 
-                </div> <br> <br>
-            </li>
-          </ul>
+<div class="rejected">
+
+  <h3>Rejected Papers</h3>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Read More...</a><br><br>
+            <a href="#">View Revised Paper</a><br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Read More...</a><br><br>
+            <a href="#">View Revised Paper</a><br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Read More...</a><br><br>
+            <a href="#">View Revised Paper</a><br>
+        </div>
+      </div>
+    </div>
   </div>
-    
-  <h1>Under Review</h1> 
-  <div class="underReview">
-  <ul>
-    <li><a href="https://www.nitj.ac.in/index.php">Paper4</a></li><br>
-    <li><a href="https://www.nitj.ac.in/index.php">Paper5</a></li><br>
-    <li><a href="https://www.nitj.ac.in/index.php">Paper6</a></li>
-  </ul>
+
+</div>
+
+
+
+<div class="publish">
+
+  <h3> Published Papers</h3>
+  <br>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Read More...</a><br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Read More...</a><br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title of the Journal</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#">Read More...</a><br>
+        </div>
+      </div>
+    </div>
   </div>
+
+</div>
+
+
   
-  <h1>Review Completed</h1>  
-    <div class="reviewCompleted">
-        <ul>
-            <li>
-                <a href="https://www.nitj.ac.in/index.php">Paper 1</a> &nbsp &nbsp
-                <button class="btn btn-sm btn-dark" data-target="#mymodal1" data-toggle="modal">Status of paper</button>
-                <div class="modal" id="mymodal1">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6>Status of the paper</h6>
-                                <button type="btn" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div style="margin: 1% 5%;"> 
-                                 <form>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="status" id="radio1" >
-                                        <label class="form-check-label" for="#radio1">
-                                           Accept
-                                        </label> 
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="status" id="radio2" >
-                                        <label class="form-check-label" for="#radio2">
-                                           Reject
-                                        </label>                                        
-                                    </div>
-                                    <br>
-                                    <div class="form-group">
-                                        <label> Additional Comments</label><br>
-                                        <textarea rows="4" cols="60"></textarea>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-sm btn-dark" type="submit" data-dismiss="modal">Submit</button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div> <br> <br>
-            </li>
-            
-            <li>
-                <a href="https://www.nitj.ac.in/index.php">Paper 1</a> &nbsp &nbsp
-                <button class="btn btn-sm btn-dark" data-target="#mymodal1" data-toggle="modal">Status of paper</button>
-                <div class="modal" id="mymodal1">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6>Status of the paper</h6>
-                                <button type="btn" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div style="margin: 1% 5%;"> 
-                                 <form>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="status" id="radio1" >
-                                        <label class="form-check-label" for="#radio1">
-                                           Accept
-                                        </label> 
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="status" id="radio2" >
-                                        <label class="form-check-label" for="#radio2">
-                                           Reject
-                                        </label>                                        
-                                    </div>
-                                    <br>
-                                    <div class="form-group">
-                                        <label> Additional Comments</label><br>
-                                        <textarea rows="4" cols="60"></textarea>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-sm btn-dark" type="submit" data-dismiss="modal">Submit</button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div> <br> <br>
-            </li>
-
-            <li>
-                <a href="https://www.nitj.ac.in/index.php">Paper 1</a> &nbsp &nbsp
-                <button class="btn btn-sm btn-dark" data-target="#mymodal1" data-toggle="modal">Status of paper</button>
-                <div class="modal" id="mymodal1">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6>Status of the paper</h6>
-                                <button type="btn" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div style="margin: 1% 5%;"> 
-                                 <form>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="status" id="radio1" >
-                                        <label class="form-check-label" for="#radio1">
-                                           Accept
-                                        </label> 
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="status" id="radio2" >
-                                        <label class="form-check-label" for="#radio2">
-                                           Reject
-                                        </label>                                        
-                                    </div>
-                                    <br>
-                                    <div class="form-group">
-                                        <label> Additional Comments</label><br>
-                                        <textarea rows="4" cols="60"></textarea>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-sm btn-dark" type="submit" data-dismiss="modal">Submit</button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div> <br> <br>
-            </li>
-          </ul>
-  </div>
-
-  <h1>Rejected</h1>  
-    <div class="rejected">
-        <ul>
-            <li><a href="https://www.nitj.ac.in/index.php">Paper1</a></li><br>
-            <li><a href="https://www.nitj.ac.in/index.php">Paper2</a></li><br>
-            <li><a href="https://www.nitj.ac.in/index.php">Paper3</a></li>
-          </ul>
-  </div>
-
-  <h1>Published</h1>  
-    <div class="published">
-        <ul>
-            <li><a href="https://www.nitj.ac.in/index.php">Paper1</a></li><br>
-            <li><a href="https://www.nitj.ac.in/index.php">Paper2</a></li><br>
-            <li><a href="https://www.nitj.ac.in/index.php">Paper3</a></li>
-          </ul>
-  </div>
-
-
 <!-- FOOTER -->
 <section id = "footer">
                 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4">
-                <ul>
-                    <li><strong>About</strong></li>
-                    <br>
-                    <li>ADTU Journals</li>
-                    <li>Terms and Conditions</li>
-                    <li>Manuscript</li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <ul>
-                    <li><strong>Information For</strong></li>
-                    <br>
-                    <li>Authors</li>
-                    <li>Editors</li>
-                    <li>Readers</li>
-                    <li>Peer Reviewers</li>
-                    <li>Librarions</li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <h4>Social</h4>
-                <br>
-                <i class="fa-brands fa-instagram social-links"></i>
-                <i class="fa-brands fa-facebook social-links"></i>
-                <i class="fa-brands fa-twitter social-links"></i>
-                <i class="fa-brands fa-linkedin social-links"></i>
-            </div>
-        </div>
-    </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4 col-md-4">
+              <ul>
+                  <li><strong>About</strong></li>
+                  <br>
+                  <li>ADTU Journals</li>
+                  <li>Terms and Conditions</li>
+                  <li>Manuscript</li>
+              </ul>
+          </div>
+          <div class="col-lg-4 col-md-4">
+              <ul>
+                  <li><strong>Information For</strong></li>
+                  <br>
+                  <li>Authors</li>
+                  <li>Editors</li>
+                  <li>Readers</li>
+                  <li>Peer Reviewers</li>
+                  <li>Librarions</li>
+              </ul>
+          </div>
+          <div class="col-lg-4 col-md-4">
+              <h4>Social</h4>
+              <br>
+              <i class="fa-brands fa-instagram social-links"></i>
+              <i class="fa-brands fa-facebook social-links"></i>
+              <i class="fa-brands fa-twitter social-links"></i>
+              <i class="fa-brands fa-linkedin social-links"></i>
+          </div>
+      </div>
+  </div>
 
 
 <div class="copyright">
-    © 2023 Copyright:
-    <a class="text-dark" href="#">ADTUjournals.com</a>
+  © 2023 Copyright:
+  <a class="text-dark" href="#">ADTUjournals.com</a>
 </div>
 
 </section>
 
-  </body>
+
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/typewriter.js"></script>
+	<script src="js/jquery.onepagenav.js"></script>
+	<script src="js/crawler.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
 </html>
